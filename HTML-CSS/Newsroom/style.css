@@ -1,0 +1,105 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.header{
+  background-color: #000;
+  min-height: 80px;
+}
+
+.header img{
+  margin: 15px 0 0 0;
+}
+
+.search{
+  float:right; 
+	margin: 25px 0 0 0; 
+}
+
+.search-form input {
+  background: transparent;
+  width: 250px;
+  border: none;
+  border-bottom: 1.5px solid #fff;
+	height: 30px; 
+  width: 240px;
+}
+
+.search .btn{
+  background: transparent;
+  color: #fff;
+  border: 0px;
+  border-bottom: 1px solid #1A77FF;
+  height: 30px; 
+  margin: 0 0 0 10px; 
+  padding: 0 10px;
+  font-size: 12px;
+}
+
+.search-form input:hover{
+  border-bottom: 1.5px solid #1A77FF;
+}
+
+.menu{
+  background-color: #152230;
+  min-height: 40px;
+}
+
+.menu ul.nav{
+  list-style:none;
+  margin:0;
+  padding:0;
+}
+
+.menu ul.nav li{
+  display: inline-block;
+   height:40px; 
+  line-height: 40px; 
+  margin: 0; 
+  padding: 0 20px;
+  text-align: center; 
+}
+
+.menu ul.nav li:hover, .menu ul.nav li.active {
+  background: #1a77ff; 
+} 
+
+.menu ul.nav li a {
+  color: #fff; 
+  margin: 0; 
+  padding: 0; } 
+
+.menu ul.nav li a:hover {
+  background: transparent; } 
+
+.main{
+  background: url(
+    https://s3.amazonaws.com/codecademy-content/projects/newsroom/bass-bg.jpg) no-repeat center center;
+  background-size:cover;
+  height: 450px;
+}
+
+ .main .container .col-md-5 {
+   padding:40px; 
+} 
+
+.main .container .col-md-5 p.date {
+  color: #fff; 
+  font-size: 16px; 
+} 
+
+.main .container .col-md-5 h1 {
+  color: #fff; 
+  font-size: 60px; 
+  margin: 20px 0; 
+} 
+
+.main .container .col-md-5 h1 span {
+  border-bottom: 5px solid #1a77ff; 
+} 
+
+.main .container .col-md-5 p {
+  color: #fff; 
+  font-size: 20px; } 
+
